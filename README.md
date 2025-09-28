@@ -5,6 +5,7 @@ A simple REST API built with Node.js, Express, and MongoDB for product managemen
 ## Table of Contents
 
 - [About](#about)
+- [Live Application Details](#live-application-details)
 - [Tech Stack](#tech-stack)
 - [API Endpoints](#api-endpoints)
 - [Quick Start](#quick-start)
@@ -20,6 +21,12 @@ This project demonstrates a basic CRUD API for managing products. It includes en
 - Data validation
 - MongoDB Atlas integration
 - Ready for deployment
+
+## Live Application Details
+
+- **Live API Base URL:** https://node-mongodb-api-demo.onrender.com
+- **Deployment Platform:** Render (Free Tier)
+- **Database:** MongoDB Atlas (Cloud)
 
 ## Tech Stack
 
@@ -55,6 +62,8 @@ curl -X POST http://localhost:5000/api/products \
 ```bash
 curl http://localhost:5000/api/products
 ```
+
+**API Postman Collection:** [node-mongodb-api-demo.postman_collection.json](./node-mongodb-api-demo.postman_collection.json)
 
 ## Quick Start
 
