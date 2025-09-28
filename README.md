@@ -28,6 +28,8 @@ This project demonstrates a basic CRUD API for managing products. It includes en
 - **Deployment Platform:** Render (Free Tier)
 - **Database:** MongoDB Atlas (Cloud)
 
+**API Postman Collection:** [node-mongodb-api-demo.postman_collection.json](./node-mongodb-api-demo.postman_collection.json)
+
 ## Tech Stack
 
 - **Backend:** Node.js, Express.js
@@ -62,8 +64,6 @@ curl -X POST http://localhost:5000/api/products \
 ```bash
 curl http://localhost:5000/api/products
 ```
-
-**API Postman Collection:** [node-mongodb-api-demo.postman_collection.json](./node-mongodb-api-demo.postman_collection.json)
 
 ## Quick Start
 
