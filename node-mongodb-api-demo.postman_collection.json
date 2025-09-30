@@ -25,6 +25,31 @@
 			"response": []
 		},
 		{
+			"name": "GetProductById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/products/:id",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68d73b5802ae7e778b286ecc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "CreateProduct",
 			"request": {
 				"method": "POST",
@@ -46,6 +71,65 @@
 					"path": [
 						"api",
 						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"DemoProduct1\",\r\n  \"description\": \"DemoProduct1 Description\",\r\n  \"price\": 10,\r\n  \"category\": \"Other\",\r\n  \"stock\": 100\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/products/:id",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68db3847ad890add93f0750d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProduct",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/products/:id",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"products",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68db3847ad890add93f0750d"
+						}
 					]
 				}
 			},
